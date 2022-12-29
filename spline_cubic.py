@@ -74,3 +74,5 @@ yinterp = getSplineValues(xinterp, splineData)
 
 plt.plot(x, y, 'x')
 plt.plot(xinterp, yinterp)
+
+plt.savefig('spline_example.png')
